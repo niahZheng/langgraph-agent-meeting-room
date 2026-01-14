@@ -8,6 +8,12 @@ An intelligent meeting chatroom system built with **LangGraph Agentic Agent** ar
 
 > 🎯 **Core Feature**: This project is a typical application case developed using **LangGraph Agentic Agent**, demonstrating how to build complex multi-step, stateful intelligent applications using LangGraph's Agent architecture.
 
+## 📸 System Demo
+
+![System Demo Screenshot](docs/demo.png)
+
+*System interface: Left sidebar for room management, right area for chat records and message input. Supports real-time multi-user chat, automatic translation, room management, and more.*
+
 ## 🌟 Key Highlights
 
 ### 🎯 Technical Features
