@@ -4,16 +4,26 @@
 
 ---
 
-基于 **LangGraph** 构建的智能 Agent 会议聊天室，集成 **阿里云百炼平台** 的语音识别和语言模型服务，实现语音转录、智能翻译和多人实时协作。
+基于 **LangGraph Agentic Agent** 架构构建的智能会议聊天室系统，采用 **LangGraph** 的 Agent 工作流引擎，集成 **阿里云百炼平台** 的语音识别和语言模型服务，实现语音转录、智能翻译和多人实时协作。
+
+> 🎯 **核心特色**：本项目是使用 **LangGraph Agentic Agent** 开发的典型应用案例，展示了如何利用 LangGraph 的 Agent 架构构建复杂的多步骤、有状态的智能应用。
 
 ## 🌟 核心亮点
 
 ### 🎯 技术特色
 
+- **🤖 LangGraph Agentic Agent 架构**
+  - **核心架构**：采用 LangGraph 的 Agentic Agent 模式构建
+  - **Agent 工作流**：每个消息处理流程都是一个独立的 Agent，具有自主决策能力
+  - **状态管理**：使用 LangGraph 的 StateGraph 管理 Agent 状态，支持复杂的状态转换
+  - **条件路由**：Agent 可以根据输入内容智能路由到不同的处理节点
+  - **模块化设计**：每个节点都是独立的 Agent 组件，可独立测试和扩展
+
 - **🔄 LangGraph 工作流引擎**
   - 采用 LangGraph 构建可扩展的消息处理工作流
   - 支持条件路由和状态管理，实现灵活的消息处理流程
   - 模块化节点设计，易于扩展和维护
+  - **Agent 化处理**：每个处理步骤都是独立的 Agent，具有自主决策能力
 
 - **🎤 阿里百炼语音识别**
   - 集成阿里云百炼平台的 `paraformer-realtime-v2` 实时语音识别模型
@@ -37,9 +47,9 @@
 
 ## 🏗️ 系统架构
 
-### LangGraph 工作流设计
+### LangGraph Agentic Agent 架构设计
 
-系统采用 LangGraph 构建了一个智能消息处理工作流，通过状态图和条件路由实现灵活的消息处理：
+系统采用 **LangGraph Agentic Agent** 架构构建了一个智能消息处理工作流。每个消息处理流程都是一个独立的 Agent，通过 LangGraph 的状态图和条件路由实现自主决策和灵活的消息处理：
 
 ```
 用户输入（语音/文字）
@@ -243,9 +253,9 @@ firstproject/
 
 ## 🔧 核心功能详解
 
-### LangGraph 工作流实现
+### LangGraph Agentic Agent 实现
 
-系统使用 LangGraph 的 `StateGraph` 构建了一个有状态的消息处理工作流：
+系统使用 LangGraph 的 `StateGraph` 构建了一个基于 **Agentic Agent** 架构的有状态消息处理工作流。每个节点都是一个独立的 Agent，具有自主决策和处理能力：
 
 ```python
 # 工作流结构

@@ -4,16 +4,26 @@
 
 ---
 
-An intelligent Agent-based meeting chatroom built with **LangGraph**, integrated with **Alibaba Cloud Bailian Platform** for speech recognition and language model services, enabling speech transcription, intelligent translation, and real-time multi-user collaboration.
+An intelligent meeting chatroom system built with **LangGraph Agentic Agent** architecture, leveraging **LangGraph's Agent workflow engine**, integrated with **Alibaba Cloud Bailian Platform** for speech recognition and language model services, enabling speech transcription, intelligent translation, and real-time multi-user collaboration.
+
+> 🎯 **Core Feature**: This project is a typical application case developed using **LangGraph Agentic Agent**, demonstrating how to build complex multi-step, stateful intelligent applications using LangGraph's Agent architecture.
 
 ## 🌟 Key Highlights
 
 ### 🎯 Technical Features
 
+- **🤖 LangGraph Agentic Agent Architecture**
+  - **Core Architecture**: Built using LangGraph's Agentic Agent pattern
+  - **Agent Workflow**: Each message processing flow is an independent Agent with autonomous decision-making capabilities
+  - **State Management**: Uses LangGraph's StateGraph to manage Agent state, supporting complex state transitions
+  - **Conditional Routing**: Agents can intelligently route to different processing nodes based on input content
+  - **Modular Design**: Each node is an independent Agent component that can be tested and extended independently
+
 - **🔄 LangGraph Workflow Engine**
   - Built with LangGraph for scalable message processing workflows
   - Supports conditional routing and state management for flexible message handling
   - Modular node design for easy extension and maintenance
+  - **Agent-based Processing**: Each processing step is an independent Agent with autonomous decision-making capabilities
 
 - **🎤 Alibaba Bailian Speech Recognition**
   - Integrated with Alibaba Cloud Bailian Platform's `paraformer-realtime-v2` real-time speech recognition model
@@ -37,9 +47,9 @@ An intelligent Agent-based meeting chatroom built with **LangGraph**, integrated
 
 ## 🏗️ System Architecture
 
-### LangGraph Workflow Design
+### LangGraph Agentic Agent Architecture Design
 
-The system uses LangGraph to build an intelligent message processing workflow, implementing flexible message handling through state graphs and conditional routing:
+The system uses **LangGraph Agentic Agent** architecture to build an intelligent message processing workflow. Each message processing flow is an independent Agent that achieves autonomous decision-making and flexible message handling through LangGraph's state graphs and conditional routing:
 
 ```
 User Input (Voice/Text)
@@ -243,9 +253,9 @@ firstproject/
 
 ## 🔧 Core Features Explained
 
-### LangGraph Workflow Implementation
+### LangGraph Agentic Agent Implementation
 
-The system uses LangGraph's `StateGraph` to build a stateful message processing workflow:
+The system uses LangGraph's `StateGraph` to build a stateful message processing workflow based on **Agentic Agent** architecture. Each node is an independent Agent with autonomous decision-making and processing capabilities:
 
 ```python
 # Workflow structure
