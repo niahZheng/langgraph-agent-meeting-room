@@ -1,5 +1,9 @@
 # 💬 LangGraph Agent 会议聊天室系统
 
+[English](README_EN.md) | [中文](README.md)
+
+---
+
 基于 **LangGraph** 构建的智能 Agent 会议聊天室，集成 **阿里云百炼平台** 的语音识别和语言模型服务，实现语音转录、智能翻译和多人实时协作。
 
 ## 🌟 核心亮点

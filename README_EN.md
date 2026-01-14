@@ -1,5 +1,9 @@
 # 💬 LangGraph Agent Meeting Room System
 
+[English](README_EN.md) | [中文](README.md)
+
+---
+
 An intelligent Agent-based meeting chatroom built with **LangGraph**, integrated with **Alibaba Cloud Bailian Platform** for speech recognition and language model services, enabling speech transcription, intelligent translation, and real-time multi-user collaboration.
 
 ## 🌟 Key Highlights
