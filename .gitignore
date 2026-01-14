@@ -48,6 +48,9 @@ room_data/
 # 用户认证数据（包含敏感信息）
 auth_data/
 
+# LangGraph 缓存
+.langgraph_api/
+
 # 临时文件
 *.tmp
 *.bak
